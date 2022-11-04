@@ -1,38 +1,91 @@
-.App {
+body {
+  background-color: aquamarine;
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cat-item {
+  background-color: teal;
+  text-align: left;
+  padding: 12pt;
+  border-radius: 5pt;
+  margin-bottom: 8pt;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 24pt;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.new-cat-image {
+  max-width: 300px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 5pt;
+}
+
+.list-cat-image {
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+  border-radius: 5pt;
+}
+
+.input-field {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 10pt;
+  padding: 5px;
+  border: 2px solid aquamarine;
+  border-radius: 5px;
+  margin: 10pt;
+}
+
+.add-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 10pt;
+  padding: 5px 15px;
   color: white;
+  background: blueviolet;
+  border: 2px solid teal;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10pt;
 }
 
-.App-link {
-  color: #61dafb;
+.remove-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 10pt;
+  padding: 5px 15px;
+  color: white;
+  background: coral;
+  border: 2px solid aquamarine;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cat-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 16pt;
+  color: white;
+  margin-top: 4pt;
+  margin-bottom: 8pt;
+}
+
+.cat-fact {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12pt;
+  color: white;
+  margin: 0pt;
 }
